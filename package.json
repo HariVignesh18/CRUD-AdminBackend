@@ -5,7 +5,9 @@
     "main": "src/index.ts",
     "scripts": {
         "start": "ts-node src/index.ts",
-        "dev": "nodemon src/index.ts"
+        "dev": "nodemon src/index.ts",
+        "build": "tsc",
+        "serve": "node dist/index.js"
     },
     "dependencies": {
         "cors": "^2.8.5",
